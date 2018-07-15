@@ -1,0 +1,51 @@
+LPUSH Pinnacle_odds:start_urls http://info.livescore123.com/football/en/League.aspx?matchSeason=2007&sclassID=4&lang=2
+LPUSH Pinnacle_odds:start_urls http://info.livescore123.com/football/en/League.aspx?matchSeason=2007&sclassID=358&lang=2
+LPUSH Pinnacle_odds:start_urls http://info.livescore123.com/football/en/SubLeague.aspx?SclassID=1&SubSclassID=418&matchSeason=2007
+LPUSH Pinnacle_odds:start_urls http://info.livescore123.com/football/en/SubLeague.aspx?SclassID=139&SubSclassID=419&matchSeason=2007
+LPUSH Pinnacle_odds:start_urls http://info.livescore123.com/football/en/League.aspx?matchSeason=2007-2008&sclassID=36&lang=2
+LPUSH Pinnacle_odds:start_urls http://info.livescore123.com/football/en/SubLeague.aspx?SclassID=37&SubSclassID=87&matchSeason=2007-2008
+LPUSH Pinnacle_odds:start_urls http://info.livescore123.com/football/en/SubLeague.aspx?SclassID=39&SubSclassID=135&matchSeason=2007-2008
+LPUSH Pinnacle_odds:start_urls http://info.livescore123.com/football/en/SubLeague.aspx?SclassID=35&SubSclassID=139&matchSeason=2007-2008
+LPUSH Pinnacle_odds:start_urls http://info.livescore123.com/football/en/League.aspx?matchSeason=2007-2008&sclassID=31&lang=2
+LPUSH Pinnacle_odds:start_urls http://info.livescore123.com/football/en/SubLeague.aspx?SclassID=33&SubSclassID=546&matchSeason=2007-2008
+LPUSH Pinnacle_odds:start_urls http://info.livescore123.com/football/en/SubLeague.aspx?matchSeason=2007-2008&sclassID=23&lang=2
+LPUSH Pinnacle_odds:start_urls http://info.livescore123.com/football/en/SubLeague.aspx?SclassID=157&SubSclassID=1787&matchSeason=2007-2008
+LPUSH Pinnacle_odds:start_urls http://info.livescore123.com/football/en/League.aspx?matchSeason=2007-2008&sclassID=11&lang=2
+LPUSH Pinnacle_odds:start_urls http://info.livescore123.com/football/en/SubLeague.aspx?SclassID=12&SubSclassID=1778&matchSeason=2007-2008
+LPUSH Pinnacle_odds:start_urls http://info.livescore123.com/football/en/League.aspx?matchSeason=2007-2008&sclassID=8&lang=2
+LPUSH Pinnacle_odds:start_urls http://info.livescore123.com/football/en/SubLeague.aspx?SclassID=9&SubSclassID=132&matchSeason=2007-2008
+LPUSH Pinnacle_odds:start_urls http://info.livescore123.com/football/en/League.aspx?matchSeason=2007-2008&sclassID=34&lang=2
+LPUSH Pinnacle_odds:start_urls http://info.livescore123.com/football/en/SubLeague.aspx?SclassID=40&SubSclassID=261&matchSeason=2007-2008
+LPUSH Pinnacle_odds:start_urls http://info.livescore123.com/football/en/SubLeague.aspx?SclassID=16&SubSclassID=98&matchSeason=2007-2008
+LPUSH Pinnacle_odds:start_urls http://info.livescore123.com/football/en/SubLeague.aspx?SclassID=17&SubSclassID=94&matchSeason=2007-2008
+LPUSH Pinnacle_odds:start_urls http://info.livescore123.com/football/en/SubLeague.aspx?SclassID=5&SubSclassID=114&matchSeason=2007-2008
+LPUSH Pinnacle_odds:start_urls http://info.livescore123.com/football/en/SubLeague.aspx?SclassID=138&SubSclassID=129&matchSeason=2007-2008
+LPUSH Pinnacle_odds:start_urls http://info.livescore123.com/football/en/League.aspx?matchSeason=2007-2008&sclassID=29&lang=2
+LPUSH Pinnacle_odds:start_urls http://info.livescore123.com/football/en/SubLeague.aspx?SclassID=150&SubSclassID=1115&matchSeason=2007-2008
+LPUSH Pinnacle_odds:start_urls http://info.livescore123.com/football/en/SubLeague.aspx?SclassID=7&SubSclassID=1722&matchSeason=2007-2008
+LPUSH Pinnacle_odds:start_urls http://info.livescore123.com/football/en/SubLeague.aspx?matchSeason=2007-2008&sclassID=127&lang=2
+LPUSH Pinnacle_odds:start_urls http://info.livescore123.com/football/en/SubLeague.aspx?SclassID=6&SubSclassID=1103&matchSeason=2007-2008
+LPUSH Pinnacle_odds:start_urls http://info.livescore123.com/football/en/SubLeague.aspx?SclassID=221&SubSclassID=1298&matchSeason=2007-2008
+LPUSH Pinnacle_odds:start_urls http://info.livescore123.com/football/en/SubLeague.aspx?SclassID=32&SubSclassID=102&matchSeason=2007-2008
+LPUSH Pinnacle_odds:start_urls http://info.livescore123.com/football/en/SubLeague.aspx?SclassID=170&SubSclassID=282&matchSeason=2007-2008
+LPUSH Pinnacle_odds:start_urls http://info.livescore123.com/football/en/League.aspx?matchSeason=2007-2008&sclassID=137&lang=2
+LPUSH Pinnacle_odds:start_urls http://info.livescore123.com/football/en/League.aspx?matchSeason=2007-2008&sclassID=290&lang=2
+LPUSH Pinnacle_odds:start_urls http://info.livescore123.com/football/en/League.aspx?matchSeason=2007-2008&sclassID=27&lang=2
+LPUSH Pinnacle_odds:start_urls http://info.livescore123.com/football/en/SubLeague.aspx?SclassID=121&SubSclassID=297&matchSeason=2007-2008
+LPUSH Pinnacle_odds:start_urls http://info.livescore123.com/football/en/SubLeague.aspx?matchSeason=2007&sclassID=26&lang=2
+LPUSH Pinnacle_odds:start_urls http://info.livescore123.com/football/en/SubLeague.aspx?SclassID=122&SubSclassID=415&matchSeason=2007
+LPUSH Pinnacle_odds:start_urls http://info.livescore123.com/football/en/SubLeague.aspx?matchSeason=2007&sclassID=13&lang=2
+LPUSH Pinnacle_odds:start_urls http://info.livescore123.com/football/en/SubLeague.aspx?SclassID=212&SubSclassID=413&matchSeason=2007
+LPUSH Pinnacle_odds:start_urls http://info.livescore123.com/football/en/SubLeague.aspx?SclassID=124&SubSclassID=1573&matchSeason=2007-2008
+LPUSH Pinnacle_odds:start_urls http://info.livescore123.com/football/en/SubLeague.aspx?SclassID=1423&SubSclassID=1399&matchSeason=2007-2008
+LPUSH Pinnacle_odds:start_urls http://info.livescore123.com/football/en/SubLeague.aspx?SclassID=1423&SubSclassID=1400&matchSeason=2007-2008
+LPUSH Pinnacle_odds:start_urls http://info.livescore123.com/football/en/SubLeague.aspx?matchSeason=2007&sclassID=10&lang=2
+LPUSH Pinnacle_odds:start_urls http://info.livescore123.com/football/en/SubLeague.aspx?matchSeason=2007&sclassID=235&lang=2
+LPUSH Pinnacle_odds:start_urls http://info.livescore123.com/football/en/SubLeague.aspx?matchSeason=2007&sclassID=166&lang=2
+LPUSH Pinnacle_odds:start_urls http://info.livescore123.com/football/en/League.aspx?matchSeason=2007&sclassID=381&lang=2
+LPUSH Pinnacle_odds:start_urls http://info.livescore123.com/football/en/League.aspx?matchSeason=2007&sclassID=22&lang=2
+
+
+
+
+
