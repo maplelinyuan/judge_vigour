@@ -14,7 +14,7 @@ total_point = 0
 total_right = 0
 total_num = 0
 
-for item in coll.find({'league_name': 'J2联赛'}):
+for item in coll.find({'league_name': '丹超'}):
 # for item in coll.find():
     match_id = item['match_id']
     home_name = item['home_name']

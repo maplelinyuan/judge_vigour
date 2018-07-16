@@ -65,7 +65,7 @@ def get_auth_code(driver, codeEelement):
     return authCodeText
 
 # 需要修改的url链接
-give_me_url = 'http://www.okooo.com/soccer/league/41/schedule/11962/1/'
+give_me_url = 'http://www.okooo.com/soccer/league/39/schedule/12647/1/'
 
 try:
     mongo_client = MongoClient(host='localhost', port=27019)
