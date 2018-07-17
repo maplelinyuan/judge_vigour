@@ -14,7 +14,7 @@ total_point = 0
 total_right = 0
 total_num = 0
 
-for item in coll.find({'league_name': '瑞士超'}):
+for item in coll.find({'league_name': '美公开杯'}):
 # for item in coll.find():
     match_id = item['match_id']
     home_name = item['home_name']
