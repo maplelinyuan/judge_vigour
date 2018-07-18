@@ -27,7 +27,7 @@ for item in coll.find({'league_name': '美公开杯'}):
     vigour_difference = item['vigour_difference']
 
     handicap_result = home_goal - away_goal - this_match_handicap_num
-    if abs(vigour_difference) >= 0.5:
+    if abs(vigour_difference) >= 0.35:
         if vigour_difference > 0:
             if handicap_result > 0.25:
                 total_point += (handicap_home_odd-1)

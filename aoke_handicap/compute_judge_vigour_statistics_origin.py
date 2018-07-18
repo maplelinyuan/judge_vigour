@@ -14,7 +14,9 @@ total_point = 0
 total_right = 0
 total_num = 0
 
-for item in coll.find({'league_name': '瑞士超'}):
+prev_is_false_count = 0
+
+for item in coll.find({'league_name': '丹超'}):
 # for item in coll.find():
     match_id = item['match_id']
     home_name = item['home_name']
@@ -27,36 +29,50 @@ for item in coll.find({'league_name': '瑞士超'}):
     vigour_difference = item['vigour_difference']
 
     handicap_result = home_goal - away_goal - this_match_handicap_num
-    if abs(vigour_difference) >= 0.5:
+    if abs(vigour_difference) >= 0.8:
         if vigour_difference > 0:
             if handicap_result > 0.25:
                 total_point += (handicap_home_odd-1)
                 total_right += 1
+                prev_is_false_count = 0
             elif handicap_result > 0:
                 total_point += (handicap_home_odd-1)/2
                 total_right += 1
+                prev_is_false_count = 0
             elif handicap_result == 0:
                 total_right += 1
+                prev_is_false_count = 0
                 pass
             elif handicap_result >= -0.25:
                 total_point -= 0.5
+                prev_is_false_count += 1
+                if (prev_is_false_count > 2): print('报警')
             else:
                 total_point -= 1
+                prev_is_false_count += 1
+                if (prev_is_false_count > 2): print('报警')
             total_num += 1
         else:
             if handicap_result < -0.25:
                 total_point += (handicap_away_odd-1)
                 total_right += 1
+                prev_is_false_count = 0
             elif handicap_result < 0:
                 total_point += (handicap_away_odd-1)/2
                 total_right += 1
+                prev_is_false_count = 0
             elif handicap_result == 0:
                 total_right += 1
+                prev_is_false_count = 0
                 pass
             elif handicap_result <= 0.25:
                 total_point -= 0.5
+                prev_is_false_count += 1
+                if (prev_is_false_count > 2): print('报警')
             else:
                 total_point -= 1
+                prev_is_false_count += 1
+                if (prev_is_false_count > 2): print('报警')
             total_num += 1
 
 print("总分是%s, 比率是%s, 赢盘走盘数: %s, 比例是: %s" % (total_point, total_point/total_num, total_right, total_right/total_num));

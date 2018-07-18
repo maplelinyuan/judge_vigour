@@ -29,7 +29,7 @@ for item in coll.find({'league_name': '英超'}):
     handicap_result = home_goal - away_goal - this_match_handicap_num
     if abs(vigour_difference) >= 0.8:
         # 主场小于1球,客场小于0.75球才使用精力数据，否则看上盘
-        if (abs(this_match_handicap_num) < 1 and this_match_handicap_num > 0) or (abs(this_match_handicap_num) < 0.75 and this_match_handicap_num < 0):
+        if (abs(this_match_handicap_num) < 1 and this_match_handicap_num >= 0) or (abs(this_match_handicap_num) < 0.5 and this_match_handicap_num <= 0):
             if vigour_difference > 0:
                 if handicap_result > 0.25:
                     total_point += (handicap_home_odd-1)

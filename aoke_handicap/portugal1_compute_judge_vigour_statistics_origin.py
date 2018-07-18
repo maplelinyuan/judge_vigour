@@ -14,6 +14,8 @@ total_point = 0
 total_right = 0
 total_num = 0
 
+prev_is_false_count = 0
+
 for item in coll.find({'league_name': '葡超'}):
 # for item in coll.find():
     match_id = item['match_id']
@@ -28,35 +30,96 @@ for item in coll.find({'league_name': '葡超'}):
 
     handicap_result = home_goal - away_goal - this_match_handicap_num
     if abs(vigour_difference) >= 0.6:
-        if vigour_difference > 0:
-            if handicap_result > 0.25:
-                total_point += (handicap_home_odd-1)
-                total_right += 1
-            elif handicap_result > 0:
-                total_point += (handicap_home_odd-1)/2
-                total_right += 1
-            elif handicap_result == 0:
-                total_right += 1
-                pass
-            elif handicap_result >= -0.25:
-                total_point -= 0.5
+        # 主场小于1.25球,客场小于0.5球才使用精力数据，否则看上盘
+        if (abs(this_match_handicap_num) < 1 and this_match_handicap_num >= 0) or (abs(this_match_handicap_num) < 0.25 and this_match_handicap_num <= 0):
+            if vigour_difference > 0:
+                if handicap_result > 0.25:
+                    total_point += (handicap_home_odd-1)
+                    total_right += 1
+                    prev_is_false_count = 0
+                elif handicap_result > 0:
+                    total_point += (handicap_home_odd-1)/2
+                    total_right += 1
+                    prev_is_false_count = 0
+                elif handicap_result == 0:
+                    total_right += 1
+                    prev_is_false_count = 0
+                    pass
+                elif handicap_result >= -0.25:
+                    total_point -= 0.5
+                    prev_is_false_count += 1
+                    if (prev_is_false_count > 2): print('报警')
+                else:
+                    total_point -= 1
+                    prev_is_false_count += 1
+                    if (prev_is_false_count > 2): print('报警')
+                total_num += 1
             else:
-                total_point -= 1
-            total_num += 1
+                if handicap_result < -0.25:
+                    total_point += (handicap_away_odd-1)
+                    total_right += 1
+                    prev_is_false_count = 0
+                elif handicap_result < 0:
+                    total_point += (handicap_away_odd-1)/2
+                    total_right += 1
+                    prev_is_false_count = 0
+                elif handicap_result == 0:
+                    total_right += 1
+                    prev_is_false_count = 0
+                    pass
+                elif handicap_result <= 0.25:
+                    total_point -= 0.5
+                    prev_is_false_count += 1
+                    if (prev_is_false_count > 2): print('报警')
+                else:
+                    total_point -= 1
+                    prev_is_false_count += 1
+                    if (prev_is_false_count > 2): print('报警')
+                total_num += 1
         else:
-            if handicap_result < -0.25:
-                total_point += (handicap_away_odd-1)
-                total_right += 1
-            elif handicap_result < 0:
-                total_point += (handicap_away_odd-1)/2
-                total_right += 1
-            elif handicap_result == 0:
-                total_right += 1
-                pass
-            elif handicap_result <= 0.25:
-                total_point -= 0.5
-            else:
-                total_point -= 1
-            total_num += 1
+            if this_match_handicap_num > 0:
+                if handicap_result > 0.25:
+                    total_point += (handicap_home_odd-1)
+                    total_right += 1
+                    prev_is_false_count = 0
+                elif handicap_result > 0:
+                    total_point += (handicap_home_odd-1)/2
+                    total_right += 1
+                    prev_is_false_count = 0
+                elif handicap_result == 0:
+                    total_right += 1
+                    prev_is_false_count = 0
+                    pass
+                elif handicap_result >= -0.25:
+                    total_point -= 0.5
+                    prev_is_false_count += 1
+                    if (prev_is_false_count > 2): print('报警')
+                else:
+                    total_point -= 1
+                    prev_is_false_count += 1
+                    if (prev_is_false_count > 2): print('报警')
+                total_num += 1
+            elif this_match_handicap_num < 0:
+                if handicap_result < -0.25:
+                    total_point += (handicap_away_odd-1)
+                    total_right += 1
+                    prev_is_false_count = 0
+                elif handicap_result < 0:
+                    total_point += (handicap_away_odd-1)/2
+                    total_right += 1
+                    prev_is_false_count = 0
+                elif handicap_result == 0:
+                    total_right += 1
+                    prev_is_false_count = 0
+                    pass
+                elif handicap_result <= 0.25:
+                    total_point -= 0.5
+                    prev_is_false_count += 1
+                    if (prev_is_false_count > 2): print('报警')
+                else:
+                    total_point -= 1
+                    prev_is_false_count += 1
+                    if (prev_is_false_count > 2): print('报警')
+                total_num += 1
 
 print("总分是%s, 比率是%s, 赢盘走盘数: %s, 比例是: %s" % (total_point, total_point/total_num, total_right, total_right/total_num));
