@@ -3,6 +3,7 @@ from pymongo import MongoClient
 import time
 import redis
 import json
+import matplotlib.pyplot as plt
 
 mongo_client = MongoClient(host='localhost', port=27019)
 db_name = 'aoke_handicap'
@@ -15,8 +16,13 @@ total_right = 0
 total_num = 0
 
 prev_is_false_count = 0
+index_arr = []
+total_point_arr = []
 
-for item in coll.find({'league_name': '丹超'}):
+
+inc = 0
+choose_inc = 0
+for item in coll.find({'league_name': '意甲'}):
 # for item in coll.find():
     match_id = item['match_id']
     home_name = item['home_name']
@@ -29,9 +35,9 @@ for item in coll.find({'league_name': '丹超'}):
     vigour_difference = item['vigour_difference']
 
     handicap_result = home_goal - away_goal - this_match_handicap_num
-    if abs(vigour_difference) >= 0.8:
+    if abs(vigour_difference) >= 0.5:
         # 主场小于1.25球,客场小于0.5球才使用精力数据，否则看上盘
-        if (abs(this_match_handicap_num) < 1 and this_match_handicap_num >= 0) or (abs(this_match_handicap_num) < 0.75 and this_match_handicap_num <= 0):
+        if (abs(this_match_handicap_num) < 1.25 and this_match_handicap_num >= 0) or (abs(this_match_handicap_num) < 0.25 and this_match_handicap_num <= 0):
             if vigour_difference > 0:
                 if handicap_result > 0.25:
                     total_point += (handicap_home_odd-1)
@@ -76,6 +82,7 @@ for item in coll.find({'league_name': '丹超'}):
                     prev_is_false_count += 1
                     if (prev_is_false_count > 2): print('报警')
                 total_num += 1
+            choose_inc += 1
         else:
             if this_match_handicap_num > 0:
                 if handicap_result > 0.25:
@@ -121,5 +128,11 @@ for item in coll.find({'league_name': '丹超'}):
                     prev_is_false_count += 1
                     if (prev_is_false_count > 2): print('报警')
                 total_num += 1
+            choose_inc += 1
+    index_arr.append(inc)
+    total_point_arr.append(total_point/(choose_inc+1))
+    inc += 1
+plt.plot(index_arr, total_point_arr)
+plt.show()
 
 print("总分是%s, 比率是%s, 赢盘走盘数: %s, 比例是: %s" % (total_point, total_point/total_num, total_right, total_right/total_num));

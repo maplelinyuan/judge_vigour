@@ -329,7 +329,8 @@ try:
             """
         current_handicap_dict = driver.execute_script(js)
         print(current_handicap_dict)
-        if not current_handicap_dict == None and not current_handicap_dict['vigour_difference'] == None and abs(current_handicap_dict['vigour_difference']) >= 0.5:
+        eliminate_league_arr = ['欧洲联赛', 'K联赛', '意乙', '德乙', '苏超', '比甲', '奥甲', '中超', '挪超', '挪甲', '芬甲', '瑞典甲', '丹超']
+        if not current_handicap_dict == None and not current_handicap_dict['vigour_difference'] == None and (abs(current_handicap_dict['vigour_difference']) >= 0.5 or (league_name == '美公开杯' and abs(current_handicap_dict['vigour_difference']) >= 0.35) and league_name not in eliminate_league_arr):
             insertItem = dict(
                 match_id=match_id,
                 league_name=league_name,

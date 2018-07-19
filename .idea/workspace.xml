@@ -2,25 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67499d46-0822-4cd4-beab-463226044c04" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/aoke_handicap/england2_compute_judge_vigour_statistics.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/aoke_handicap/england3_compute_judge_vigour_statistics.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/aoke_handicap/japan1_compute_judge_vigour_statistics.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/aoke_handicap/switzerland1_compute_judge_vigour_statistics.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/aoke_handicap/netherlands2_compute_judge_vigour_statistics.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/aoke_handicap/US1_compute_judge_vigour_statistics_origin.py" afterPath="$PROJECT_DIR$/aoke_handicap/US1_compute_judge_vigour_statistics_origin.py" />
-      <change beforePath="$PROJECT_DIR$/aoke_handicap/brazil1_compute_judge_vigour_statistics.py" afterPath="$PROJECT_DIR$/aoke_handicap/brazil1_compute_judge_vigour_statistics.py" />
-      <change beforePath="$PROJECT_DIR$/aoke_handicap/brazil2_compute_judge_vigour_statistics.py" afterPath="$PROJECT_DIR$/aoke_handicap/brazil2_compute_judge_vigour_statistics.py" />
       <change beforePath="$PROJECT_DIR$/aoke_handicap/champions_compute_judge_vigour_statistics.py" afterPath="$PROJECT_DIR$/aoke_handicap/champions_compute_judge_vigour_statistics.py" />
       <change beforePath="$PROJECT_DIR$/aoke_handicap/compute_judge_vigour_statistics.py" afterPath="$PROJECT_DIR$/aoke_handicap/compute_judge_vigour_statistics.py" />
       <change beforePath="$PROJECT_DIR$/aoke_handicap/compute_judge_vigour_statistics_origin.py" afterPath="$PROJECT_DIR$/aoke_handicap/compute_judge_vigour_statistics_origin.py" />
-      <change beforePath="$PROJECT_DIR$/aoke_handicap/denmark1_compute_judge_vigour_statistics_origin.py" afterPath="$PROJECT_DIR$/aoke_handicap/russian1_compute_judge_vigour_statistics_origin.py" />
-      <change beforePath="$PROJECT_DIR$/aoke_handicap/england1_compute_judge_vigour_statistics.py" afterPath="$PROJECT_DIR$/aoke_handicap/england1_compute_judge_vigour_statistics.py" />
-      <change beforePath="$PROJECT_DIR$/aoke_handicap/finland1_compute_judge_vigour_statistics.py" afterPath="$PROJECT_DIR$/aoke_handicap/finland1_compute_judge_vigour_statistics.py" />
-      <change beforePath="$PROJECT_DIR$/aoke_handicap/france1_compute_judge_vigour_statistics.py" afterPath="$PROJECT_DIR$/aoke_handicap/france1_compute_judge_vigour_statistics.py" />
-      <change beforePath="$PROJECT_DIR$/aoke_handicap/france2_compute_judge_vigour_statistics.py" afterPath="$PROJECT_DIR$/aoke_handicap/france2_compute_judge_vigour_statistics.py" />
-      <change beforePath="$PROJECT_DIR$/aoke_handicap/german1_compute_judge_vigour_statistics.py" afterPath="$PROJECT_DIR$/aoke_handicap/german1_compute_judge_vigour_statistics.py" />
-      <change beforePath="$PROJECT_DIR$/aoke_handicap/italy1_compute_judge_vigour_statistics.py" afterPath="$PROJECT_DIR$/aoke_handicap/italy1_compute_judge_vigour_statistics.py" />
-      <change beforePath="$PROJECT_DIR$/aoke_handicap/japan2_compute_judge_vigour_statistics.py" afterPath="$PROJECT_DIR$/aoke_handicap/japan2_compute_judge_vigour_statistics.py" />
+      <change beforePath="$PROJECT_DIR$/aoke_handicap/current_judge_vigour.py" afterPath="$PROJECT_DIR$/aoke_handicap/current_judge_vigour.py" />
       <change beforePath="$PROJECT_DIR$/aoke_handicap/judge_vigour.py" afterPath="$PROJECT_DIR$/aoke_handicap/judge_vigour.py" />
       <change beforePath="$PROJECT_DIR$/aoke_handicap/judge_vigour2.py" afterPath="$PROJECT_DIR$/aoke_handicap/judge_vigour2.py" />
       <change beforePath="$PROJECT_DIR$/aoke_handicap/judge_vigour3.py" afterPath="$PROJECT_DIR$/aoke_handicap/judge_vigour3.py" />
@@ -28,13 +15,8 @@
       <change beforePath="$PROJECT_DIR$/aoke_handicap/judge_vigour5.py" afterPath="$PROJECT_DIR$/aoke_handicap/judge_vigour5.py" />
       <change beforePath="$PROJECT_DIR$/aoke_handicap/judge_vigour6.py" afterPath="$PROJECT_DIR$/aoke_handicap/judge_vigour6.py" />
       <change beforePath="$PROJECT_DIR$/aoke_handicap/judge_vigour7.py" afterPath="$PROJECT_DIR$/aoke_handicap/judge_vigour7.py" />
-      <change beforePath="$PROJECT_DIR$/aoke_handicap/netherlands1_compute_judge_vigour_statistics.py" afterPath="$PROJECT_DIR$/aoke_handicap/netherlands1_compute_judge_vigour_statistics.py" />
-      <change beforePath="$PROJECT_DIR$/aoke_handicap/openCup_compute_judge_vigour_statistics_origin.py" afterPath="$PROJECT_DIR$/aoke_handicap/openCup_compute_judge_vigour_statistics_origin.py" />
-      <change beforePath="$PROJECT_DIR$/aoke_handicap/portugal1_compute_judge_vigour_statistics_origin.py" afterPath="$PROJECT_DIR$/aoke_handicap/portugal1_compute_judge_vigour_statistics_origin.py" />
-      <change beforePath="$PROJECT_DIR$/aoke_handicap/spain1_compute_judge_vigour_statistics.py" afterPath="$PROJECT_DIR$/aoke_handicap/spain1_compute_judge_vigour_statistics.py" />
-      <change beforePath="$PROJECT_DIR$/aoke_handicap/spain2_compute_judge_vigour_statistics.py" afterPath="$PROJECT_DIR$/aoke_handicap/spain2_compute_judge_vigour_statistics.py" />
-      <change beforePath="$PROJECT_DIR$/aoke_handicap/sulianbei_compute_judge_vigour_statistics.py" afterPath="$PROJECT_DIR$/aoke_handicap/sulianbei_compute_judge_vigour_statistics.py" />
-      <change beforePath="$PROJECT_DIR$/aoke_handicap/sweden1_compute_judge_vigour_statistics.py" afterPath="$PROJECT_DIR$/aoke_handicap/sweden1_compute_judge_vigour_statistics.py" />
+      <change beforePath="$PROJECT_DIR$/aoke_handicap/judge_vigour8.py" afterPath="$PROJECT_DIR$/aoke_handicap/judge_vigour8.py" />
+      <change beforePath="$PROJECT_DIR$/aoke_handicap/judge_vigour9.py" afterPath="$PROJECT_DIR$/aoke_handicap/judge_vigour9.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -48,19 +30,11 @@
       <file leaf-file-name="compute_judge_vigour_statistics.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/aoke_handicap/compute_judge_vigour_statistics.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="18" column="45" lean-forward="true" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="US1_compute_judge_vigour_statistics_origin.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/aoke_handicap/US1_compute_judge_vigour_statistics_origin.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="29" column="36" lean-forward="false" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
-              <folding />
+            <state relative-caret-position="342">
+              <caret line="39" column="120" lean-forward="false" selection-start-line="39" selection-start-column="120" selection-end-line="39" selection-end-column="120" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -68,8 +42,8 @@
       <file leaf-file-name="compute_judge_vigour_statistics_origin.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/aoke_handicap/compute_judge_vigour_statistics_origin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="31" column="35" lean-forward="false" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="36" />
+            <state relative-caret-position="95">
+              <caret line="18" column="41" lean-forward="false" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -95,11 +69,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="current_judge_vigour.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="current_judge_vigour.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/aoke_handicap/current_judge_vigour.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="95" column="27" lean-forward="false" selection-start-line="95" selection-start-column="27" selection-end-line="95" selection-end-column="27" />
+            <state relative-caret-position="196">
+              <caret line="334" column="34" lean-forward="true" selection-start-line="334" selection-start-column="34" selection-end-line="334" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -127,8 +101,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>match_result</find>
-      <find>compute_vigour_change</find>
       <find>deb</find>
       <find>Math.log(goal_differ)</find>
       <find>multi_num = Math.pow(1.1, -differ_day);</find>
@@ -156,7 +128,9 @@
       <find>total_point -= 0.5</find>
       <find>total_point -= 1</find>
       <find>total_right += 1</find>
+      <find>Num3Menu_Off</find>
       <find>if (prev_is_false_count &gt; 2): print('报警')</find>
+      <find>total_point</find>
     </findStrings>
     <replaceStrings>
       <replace>bet_365_last_tr</replace>
@@ -213,18 +187,7 @@
         <option value="$PROJECT_DIR$/aoke_handicap/judge_vigour14.py" />
         <option value="$PROJECT_DIR$/aoke_handicap/judge_vigour15.py" />
         <option value="$PROJECT_DIR$/aoke_handicap/timer_current.py" />
-        <option value="$PROJECT_DIR$/aoke_handicap/current_judge_vigour.py" />
-        <option value="$PROJECT_DIR$/aoke_handicap/judge_vigour8.py" />
-        <option value="$PROJECT_DIR$/aoke_handicap/judge_vigour9.py" />
         <option value="$PROJECT_DIR$/aoke_handicap/judge_vigour10.py" />
-        <option value="$PROJECT_DIR$/aoke_handicap/judge_vigour.py" />
-        <option value="$PROJECT_DIR$/aoke_handicap/judge_vigour2.py" />
-        <option value="$PROJECT_DIR$/aoke_handicap/judge_vigour3.py" />
-        <option value="$PROJECT_DIR$/aoke_handicap/judge_vigour4.py" />
-        <option value="$PROJECT_DIR$/aoke_handicap/judge_vigour5.py" />
-        <option value="$PROJECT_DIR$/aoke_handicap/judge_vigour6.py" />
-        <option value="$PROJECT_DIR$/aoke_handicap/judge_vigour7.py" />
-        <option value="$PROJECT_DIR$/aoke_handicap/champions_compute_judge_vigour_statistics.py" />
         <option value="$PROJECT_DIR$/aoke_handicap/sweden1_compute_judge_vigour_statistics.py" />
         <option value="$PROJECT_DIR$/aoke_handicap/sulianbei_compute_judge_vigour_statistics.py" />
         <option value="$PROJECT_DIR$/aoke_handicap/france1_compute_judge_vigour_statistics.py" />
@@ -235,8 +198,6 @@
         <option value="$PROJECT_DIR$/aoke_handicap/japan1_compute_judge_vigour_statistics.py" />
         <option value="$PROJECT_DIR$/aoke_handicap/japan2_compute_judge_vigour_statistics.py" />
         <option value="$PROJECT_DIR$/aoke_handicap/switzerland1_compute_judge_vigour_statistics.py" />
-        <option value="$PROJECT_DIR$/aoke_handicap/compute_judge_vigour_statistics.py" />
-        <option value="$PROJECT_DIR$/aoke_handicap/compute_judge_vigour_statistics_origin.py" />
         <option value="$PROJECT_DIR$/aoke_handicap/brazil1_compute_judge_vigour_statistics.py" />
         <option value="$PROJECT_DIR$/aoke_handicap/brazil2_compute_judge_vigour_statistics.py" />
         <option value="$PROJECT_DIR$/aoke_handicap/england1_compute_judge_vigour_statistics.py" />
@@ -248,6 +209,19 @@
         <option value="$PROJECT_DIR$/aoke_handicap/portugal1_compute_judge_vigour_statistics_origin.py" />
         <option value="$PROJECT_DIR$/aoke_handicap/spain1_compute_judge_vigour_statistics.py" />
         <option value="$PROJECT_DIR$/aoke_handicap/US1_compute_judge_vigour_statistics_origin.py" />
+        <option value="$PROJECT_DIR$/aoke_handicap/judge_vigour.py" />
+        <option value="$PROJECT_DIR$/aoke_handicap/judge_vigour2.py" />
+        <option value="$PROJECT_DIR$/aoke_handicap/judge_vigour3.py" />
+        <option value="$PROJECT_DIR$/aoke_handicap/judge_vigour4.py" />
+        <option value="$PROJECT_DIR$/aoke_handicap/judge_vigour5.py" />
+        <option value="$PROJECT_DIR$/aoke_handicap/judge_vigour6.py" />
+        <option value="$PROJECT_DIR$/aoke_handicap/judge_vigour7.py" />
+        <option value="$PROJECT_DIR$/aoke_handicap/judge_vigour8.py" />
+        <option value="$PROJECT_DIR$/aoke_handicap/judge_vigour9.py" />
+        <option value="$PROJECT_DIR$/aoke_handicap/compute_judge_vigour_statistics_origin.py" />
+        <option value="$PROJECT_DIR$/aoke_handicap/champions_compute_judge_vigour_statistics.py" />
+        <option value="$PROJECT_DIR$/aoke_handicap/compute_judge_vigour_statistics.py" />
+        <option value="$PROJECT_DIR$/aoke_handicap/current_judge_vigour.py" />
       </list>
     </option>
   </component>
@@ -424,14 +398,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45652175" sideWeight="0.5063966" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4570185" sideWeight="0.4936034" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4570185" sideWeight="0.4936034" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15724947" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -481,24 +454,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/aoke_handicap/handicap_statistics.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="282" column="73" lean-forward="true" selection-start-line="282" selection-start-column="26" selection-end-line="282" selection-end-column="73" />
-          <folding>
-            <element signature="e#23#53#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aoke_handicap/compute_handicap_statistics.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/aoke_handicap/korean1_compute_judge_vigour_statistics.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-171">
@@ -595,22 +550,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aoke_handicap/judge_vigour8.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="67" column="69" lean-forward="false" selection-start-line="67" selection-start-column="69" selection-end-line="67" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aoke_handicap/judge_vigour9.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="67" column="69" lean-forward="false" selection-start-line="67" selection-start-column="69" selection-end-line="67" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/aoke_handicap/judge_vigour10.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="55">
@@ -619,82 +558,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aoke_handicap/current_judge_vigour.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="95" column="27" lean-forward="false" selection-start-line="95" selection-start-column="27" selection-end-line="95" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aoke_handicap/judge_vigour.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="67" column="70" lean-forward="false" selection-start-line="67" selection-start-column="70" selection-end-line="67" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aoke_handicap/judge_vigour2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="67" column="70" lean-forward="false" selection-start-line="67" selection-start-column="70" selection-end-line="67" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aoke_handicap/judge_vigour3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="67" column="77" lean-forward="false" selection-start-line="67" selection-start-column="77" selection-end-line="67" selection-end-column="77" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aoke_handicap/judge_vigour4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="67" column="70" lean-forward="false" selection-start-line="67" selection-start-column="70" selection-end-line="67" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aoke_handicap/judge_vigour5.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="67" column="69" lean-forward="false" selection-start-line="67" selection-start-column="69" selection-end-line="67" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aoke_handicap/judge_vigour6.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="67" column="69" lean-forward="false" selection-start-line="67" selection-start-column="69" selection-end-line="67" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aoke_handicap/judge_vigour7.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="67" column="69" lean-forward="false" selection-start-line="67" selection-start-column="69" selection-end-line="67" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/aoke_handicap/denmark1_compute_judge_vigour_statistics_origin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="16" column="45" lean-forward="true" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aoke_handicap/compute_judge_vigour_statistics_origin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="31" column="35" lean-forward="false" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="36" />
           <folding />
         </state>
       </provider>
@@ -795,14 +662,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aoke_handicap/champions_compute_judge_vigour_statistics.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="31" column="44" lean-forward="false" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/aoke_handicap/openCup_compute_judge_vigour_statistics_origin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -875,18 +734,134 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aoke_handicap/compute_judge_vigour_statistics.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="18" column="45" lean-forward="true" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/aoke_handicap/US1_compute_judge_vigour_statistics_origin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="29" column="36" lean-forward="false" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aoke_handicap/netherlands2_compute_judge_vigour_statistics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-19">
+          <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aoke_handicap/judge_vigour.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="67" column="71" lean-forward="false" selection-start-line="67" selection-start-column="71" selection-end-line="67" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aoke_handicap/judge_vigour2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="67" column="71" lean-forward="false" selection-start-line="67" selection-start-column="71" selection-end-line="67" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aoke_handicap/judge_vigour3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="67" column="71" lean-forward="false" selection-start-line="67" selection-start-column="71" selection-end-line="67" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aoke_handicap/judge_vigour4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="67" column="71" lean-forward="false" selection-start-line="67" selection-start-column="71" selection-end-line="67" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aoke_handicap/judge_vigour5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="67" column="71" lean-forward="false" selection-start-line="67" selection-start-column="71" selection-end-line="67" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aoke_handicap/judge_vigour6.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="67" column="71" lean-forward="false" selection-start-line="67" selection-start-column="71" selection-end-line="67" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aoke_handicap/judge_vigour7.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="67" column="71" lean-forward="false" selection-start-line="67" selection-start-column="71" selection-end-line="67" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aoke_handicap/judge_vigour8.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="67" column="71" lean-forward="false" selection-start-line="67" selection-start-column="71" selection-end-line="67" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aoke_handicap/judge_vigour9.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="67" column="71" lean-forward="false" selection-start-line="67" selection-start-column="71" selection-end-line="67" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aoke_handicap/compute_judge_vigour_statistics_origin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="18" column="41" lean-forward="false" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2017.3/system/python_stubs/1172709500/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="482" column="40" lean-forward="false" selection-start-line="482" selection-start-column="40" selection-end-line="482" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aoke_handicap/champions_compute_judge_vigour_statistics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="103" column="10" lean-forward="true" selection-start-line="103" selection-start-column="10" selection-end-line="103" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aoke_handicap/compute_judge_vigour_statistics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="39" column="120" lean-forward="false" selection-start-line="39" selection-start-column="120" selection-end-line="39" selection-end-column="120" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aoke_handicap/current_judge_vigour.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="334" column="34" lean-forward="true" selection-start-line="334" selection-start-column="34" selection-end-line="334" selection-end-column="34" />
           <folding />
         </state>
       </provider>

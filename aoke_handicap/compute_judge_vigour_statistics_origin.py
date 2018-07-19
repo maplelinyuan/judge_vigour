@@ -16,7 +16,7 @@ total_num = 0
 
 prev_is_false_count = 0
 
-for item in coll.find({'league_name': '丹超'}):
+for item in coll.find({'league_name': '美职'}):
 # for item in coll.find():
     match_id = item['match_id']
     home_name = item['home_name']
