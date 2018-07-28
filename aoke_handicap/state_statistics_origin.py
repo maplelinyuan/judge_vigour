@@ -21,7 +21,7 @@ total_point_arr = []
 
 inc = 0
 choose_inc = 0
-for item in coll.find({'league_name': '吉尼斯杯'}):
+for item in coll.find({'league_name': '美职'}):
 # for item in coll.find():
     match_id = item['match_id']
     home_name = item['home_name']
@@ -34,7 +34,7 @@ for item in coll.find({'league_name': '吉尼斯杯'}):
     vigour_difference = item['vigour_difference']
 
     handicap_result = home_goal - away_goal - this_match_handicap_num
-    if abs(vigour_difference) >= 0.8:
+    if abs(vigour_difference) >= 0.5:
         if vigour_difference < 0:
             if handicap_result > 0.25:
                 total_point += (handicap_home_odd-1)

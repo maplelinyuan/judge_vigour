@@ -112,25 +112,25 @@ try:
         cur_tr.find_elements_by_xpath('td')[12].find_elements_by_xpath('a')[1].click()
         windows = driver.window_handles
         driver.switch_to.window(windows[-1])
-        # 进入详情页面
-        this_match_handicap = WebDriverWait(driver, 30).until(lambda driver: driver.find_elements_by_xpath('//tr[@class="topjfbg jsThisMatch"]')[0])
-        this_match_handicap_text = this_match_handicap.find_elements_by_xpath('td')[10].get_attribute('textContent')
-        if this_match_handicap_text == '-' or this_match_handicap_text == '':
-            driver.close()
-            windows = driver.window_handles
-            driver.switch_to.window(windows[0])
-            continue
-        this_match_handicap_num = convert_handicap(this_match_handicap_text)
-        this_match_handicap_home_odd_td = this_match_handicap.find_elements_by_xpath('td')[9]
-        this_match_handicap_away_odd_td = this_match_handicap.find_elements_by_xpath('td')[11]
-        if len(this_match_handicap_home_odd_td.find_elements_by_xpath('span')) > 0:
-            handicap_home_odd = float(this_match_handicap_home_odd_td.find_elements_by_xpath('span')[0].get_attribute('textContent'))
-        else:
-            handicap_home_odd = float(this_match_handicap_home_odd_td.get_attribute('textContent'))
-        if len(this_match_handicap_away_odd_td.find_elements_by_xpath('span')) > 0:
-            handicap_away_odd = float(this_match_handicap_away_odd_td.find_elements_by_xpath('span')[0].get_attribute('textContent'))
-        else:
-            handicap_away_odd = float(this_match_handicap_away_odd_td.get_attribute('textContent'))
+        # 获取当前比赛盘口
+        # this_match_handicap = WebDriverWait(driver, 30).until(lambda driver: driver.find_elements_by_xpath('//tr[@class="topjfbg jsThisMatch"]')[0])
+        # this_match_handicap_text = this_match_handicap.find_elements_by_xpath('td')[10].get_attribute('textContent')
+        # if this_match_handicap_text == '-' or this_match_handicap_text == '':
+        #     driver.close()
+        #     windows = driver.window_handles
+        #     driver.switch_to.window(windows[0])
+        #     continue
+        # this_match_handicap_num = convert_handicap(this_match_handicap_text)
+        # this_match_handicap_home_odd_td = this_match_handicap.find_elements_by_xpath('td')[9]
+        # this_match_handicap_away_odd_td = this_match_handicap.find_elements_by_xpath('td')[11]
+        # if len(this_match_handicap_home_odd_td.find_elements_by_xpath('span')) > 0:
+        #     handicap_home_odd = float(this_match_handicap_home_odd_td.find_elements_by_xpath('span')[0].get_attribute('textContent'))
+        # else:
+        #     handicap_home_odd = float(this_match_handicap_home_odd_td.get_attribute('textContent'))
+        # if len(this_match_handicap_away_odd_td.find_elements_by_xpath('span')) > 0:
+        #     handicap_away_odd = float(this_match_handicap_away_odd_td.find_elements_by_xpath('span')[0].get_attribute('textContent'))
+        # else:
+        #     handicap_away_odd = float(this_match_handicap_away_odd_td.get_attribute('textContent'))
 
         # 登录模块
         # time.sleep(3)
@@ -329,7 +329,7 @@ try:
             """
         current_handicap_dict = driver.execute_script(js)
         print(current_handicap_dict)
-        eliminate_league_arr = ['欧洲联赛', 'K联赛', '意乙', '德乙', '苏超', '比甲', '奥甲', '中超', '挪超', '挪甲', '芬甲', '瑞典甲', '丹超']
+        eliminate_league_arr = ['德乙', '苏超', '比甲', '奥甲', '中超', '挪超', '挪甲', '芬甲', '爱超', '爱甲']
         if not current_handicap_dict == None and not current_handicap_dict['vigour_difference'] == None and (abs(current_handicap_dict['vigour_difference']) >= 0.5 or (league_name == '美公开杯' and abs(current_handicap_dict['vigour_difference']) >= 0.35) and league_name not in eliminate_league_arr):
             insertItem = dict(
                 match_id=match_id,
@@ -337,9 +337,9 @@ try:
                 home_name=home_name,
                 away_name=away_name,
                 match_time=match_time,
-                this_match_handicap_num=this_match_handicap_num,
-                handicap_home_odd=handicap_home_odd,
-                handicap_away_odd=handicap_away_odd,
+                # this_match_handicap_num=this_match_handicap_num,
+                # handicap_home_odd=handicap_home_odd,
+                # handicap_away_odd=handicap_away_odd,
                 vigour_difference=current_handicap_dict['vigour_difference'],
             )
             if coll.find({'match_id': match_id}).count() == 0:

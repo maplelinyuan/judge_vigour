@@ -27,7 +27,7 @@ for item in coll.find({'league_name': '美职'}):
     vigour_difference = item['vigour_difference']
 
     handicap_result = home_goal - away_goal - this_match_handicap_num
-    if abs(vigour_difference) >= 0.6:
+    if abs(vigour_difference) >= 0.8:
         # 主场小于1.25球,客场小于0.5球才使用精力数据，否则看上盘
         if (abs(this_match_handicap_num) < 1 and this_match_handicap_num >= 0) or (abs(this_match_handicap_num) < 0.5 and this_match_handicap_num <= 0):
             if vigour_difference > 0:
